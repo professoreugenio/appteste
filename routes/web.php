@@ -1,11 +1,8 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    echo "Minha página web";
-});
-
-Route::get('/sobre', function() {
-    echo "Página sobre";
-});
+Route::get('/home',[MainController::class, 'index']);
+Route::get('/sobre',[MainController::class, 'sobre']);
+Route::get('/contato',[MainController::class, 'contato']);
