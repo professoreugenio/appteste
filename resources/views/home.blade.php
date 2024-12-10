@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-             <h1>Página Home</h1>
+             <h1>Página Home </h1>
 <hr>   
 <a href="{{ route('home') }}" class="btn btn-warning">Home</a> 
 <a href="{{ route('sobre') }}" class="btn btn-default">Sobre</a> 
