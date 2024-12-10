@@ -17,6 +17,9 @@
 <a href="{{ route('sobre') }}" class="btn btn-default">Sobre</a> 
 <a href="{{ route('contato') }}" class="btn btn-default">Contato</a>
 <hr>
+<p>
+   🏠 Página inicial da aplicação, onde os usuários encontram informações principais e acessos rápidos para navegar pelo site.
+</p>
             </div>
         </div>
     </div>

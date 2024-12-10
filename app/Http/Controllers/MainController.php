@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MainController extends Controller
+class MainController
 {
     public function home(){
         return view('home');
@@ -15,6 +15,4 @@ class MainController extends Controller
     public function contato(){
         return view('contato');
     }
-
-    
 }

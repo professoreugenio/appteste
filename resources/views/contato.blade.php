@@ -17,6 +17,9 @@
 <a href="{{ route('sobre') }}" class="btn btn-default">Sobre</a> 
 <a href="{{ route('contato') }}" class="btn btn-warning">Contato</a>
 <hr>
+<p>
+  ✉️  Espaço para que os usuários possam entrar em contato, com informações como e-mail, telefone e um formulário de mensagens.
+</p>
             </div>
         </div>
     </div>

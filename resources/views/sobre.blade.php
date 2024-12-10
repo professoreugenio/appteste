@@ -17,6 +17,9 @@
 <a href="{{ route('sobre') }}" class="btn btn-warning">Sobre</a> 
 <a href="{{ route('contato') }}" class="btn btn-default">Contato</a>
 <hr>
+<p>
+   🙋 Seção dedicada a apresentar a história, missão, visão e valores da empresa ou projeto, destacando sua essência.
+</p>
             </div>
         </div>
     </div>
