@@ -6,15 +6,15 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function index(){
-        echo "Novo controller index";
+    public function home(){
+        return view('home');
     }
-
     public function sobre(){
-        echo "Página sobre no controller";
+        return view('sobre');
+    }
+    public function contato(){
+        return view('contato');
     }
 
-     public function contato(){
-        echo "Página contato no controller";
-    }
+    
 }
